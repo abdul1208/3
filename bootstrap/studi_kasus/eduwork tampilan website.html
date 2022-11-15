@@ -1,0 +1,2546 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+      ttq.load('C8TGTPDCSQN3SGB7QEV0');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158590099-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158590099-1');
+    </script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EduWork - Platform Mentoring & Penyaluran Kerja</title>
+
+	<!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/app.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/style.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/landing-page.style.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/landing-page-mobile.style.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/single-class.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/color.css">
+    <link type="text/css" rel="stylesheet" href="https://eduwork.id/css/jquery.datetimepicker.css">
+
+    <style>
+    .invalid-feedback { color: red ; }
+    .tooltiped {
+      position: relative;
+      z-index: 99999;
+
+    }
+
+    .tooltiped .tooltiptexted {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+
+      position: absolute;
+      z-index: 1;
+    }
+
+    .tooltiped:hover .tooltiptexted {
+      visibility: visible;
+    }
+    </style>
+    <link rel="shortcut icon" href="https://eduwork.id/images/favicon.png">
+
+    <script type="text/javascript" src="https://eduwork.id/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://eduwork.id/js/app.js"></script>
+    <script type="text/javascript" src="https://eduwork.id/js/plugins.js"></script>
+    <script type="text/javascript" src="https://eduwork.id/js/scripts.js"></script>
+    <script type="text/javascript" src="https://eduwork.id/js/jquery.datetimepicker.full.js"></script>
+
+
+    
+
+    <style type="text/css">
+	@media  only screen and (max-width: 1245px) {
+	    .jumbotron{
+	    	width: 100%;
+	    }
+	    .jumbotron div{
+	    	display: d-none;
+	    }
+	    html{
+	    	overflow-x: auto;
+	    }
+	}
+</style>
+<!-- DEFAULT STYLE -->
+<style>
+
+.banner-text{
+	width: 100%;
+}
+.banner {
+	height: auto;
+	margin-bottom: 0px;
+}
+.banner-feature .banner-title{
+	line-height: normal;
+}
+.banner-subtitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    margin-bottom: 22px;
+    text-align: left;
+}
+.banner-feature{
+	padding-top: 0;
+}
+.banner-feature .banner-title{
+	padding-bottom: 24px;
+	max-width: unset;
+}
+.banner-feature .banner-sub-title{
+	margin-bottom: 48px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #757575;
+}
+.banner-feature .feature-photo-icon.bg-transparent{
+	background-color: transparent!important;
+}
+.banner-basic{
+	padding-bottom: 1px;
+}
+.chips{
+	margin: 5px;
+}
+.banner-basic .title.text-24{
+	font-size: 24px!important;
+}
+.banner-basic .subtitle.text-18{
+	font-size: 18px;
+}
+.banner-feature .banner-content.py-22{
+	padding-bottom: 22px!important;
+	padding-top: 22px!important;
+}
+.banner-btn button, .banner-btn a{
+	font-size: 18px;
+}
+.pricing ul li{
+	color: black;
+	list-style: disc;
+}
+</style>
+
+<!-- MAX WIDTH MD -->
+<style>
+@media  only screen and (max-width: 1064px) {
+  .banner-feature .banner-sub-title{
+    font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      margin-bottom: 22px;
+      max-width: 624px;
+      color: #757575;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .banner-feature .banner-content{
+    padding: 0 15px!important;
+  }
+}
+</style>
+<style>
+  .jumbutton{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .jumbutton-active{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .jumbutton:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+</style>
+    <script>
+    $(document).ready(function() {
+            window.onscroll = function () {
+            var myNav = document.getElementById('section-navigation');
+            var banner = document.getElementById('first-banner');
+            // if (document.body.scrollTop >= banner.offsetHeight - myNav.offsetHeight || document.documentElement.scrollTop >= banner.offsetHeight - myNav.offsetHeight ) {
+            //     myNav.classList.add("nav-colored");
+            //     myNav.classList.remove("nav-transparent");
+            // }
+            // else {
+            //     myNav.classList.add("nav-transparent");
+            //     myNav.classList.remove("nav-colored");
+            // }
+        };
+    });
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158590099-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158590099-1');
+    </script>
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '823303478385686');
+        fbq('trackSingle', '823303478385686', 'PageView');
+        // Tiktok Pixel Code
+                    !function (w, d, t) {
+              w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+              ttq.load('C8TGTPDCSQN3SGB7QEV0');
+              ttq.page();
+            }(window, document, 'ttq');
+            </script>
+     <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=823303478385686&ev=PageView&noscript=1"
+      /></noscript>
+    <style type="text/css">
+        .text-danger{
+            color: #FF8080!important;
+        }
+    </style>
+
+
+
+</head>
+<body style="background-color: #F6FCFF!important;">
+
+<div id="main" style="opacity: 1;
+background-color: #F6FCFF;
+">
+<header class="main-header fs-header sticky nav-colored" id="section-navigation">
+        <div class="header-inner container">
+            <div class="logo-holder">
+                <a href="https://eduwork.id"><img class="photo" src="https://eduwork.id/templates/v1/landing/eduwork_light.png" /></a>
+            </div>
+
+            
+
+        <!-- nav-button-wrap-->
+            <div class="nav-button-wrap color-bg">
+                <div class="nav-button">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <!-- nav-button-wrap end-->
+            <!--  navigation -->
+
+            <div class="nav-holder main-menu">
+                <nav>
+                    <ul>
+                        <li> <a href="https://eduwork.id" class=" color-white xs-color-dark-2">Home</a> </li>
+                        <li>
+                            <a href="https://eduwork.id/kelas" class=" color-white xs-color-dark-2">
+                                Kelas
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                            <ul style="width: 300px">
+                                                                                                    <li>
+                                        <a href="https://eduwork.id/kelas?type=private">Private Mentoring </a>
+                                    </li>
+                                                                                                    <li>
+                                        <a href="https://eduwork.id/kelas?type=webinar">Webinar </a>
+                                    </li>
+                            	                              <li>
+                                <a href="https://eduwork.id/kelas?type=mini_bootcamp">Mini Bootcamp </a>
+                              </li>
+
+                            </ul>
+                        </li>
+                        
+                                                                            <li>
+                                <a href="https://eduwork.id/profile/edit">Member
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <ul>
+                                                                        <li><a href="https://eduwork.id/profile/edit">Account</a></li>
+
+
+                                                                            <li><a href="https://eduwork.id/student">My Class</a></li>
+                                        <li>
+                                            <a href="https://eduwork.id/profile/status">Registration</a>
+                                        </li>
+                                    
+                                    
+
+                                    <li>
+                                                                                    <a href="https://eduwork.id/logout" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                                                Logout
+                                            </a>
+
+                                            <form id="logout-form" action="https://eduwork.id/logout" method="POST" style="display: none;">
+                                                <input type="hidden" name="_token" value="XFIgqeKgtFMJ0F7qYRxygp6ThAOhdHAlSuN1wybh">                                            </form>
+                                                                            </li>
+                                </ul>
+                            </li>
+                                                                            <li>
+                                <style>
+                                    .nav-holder nav li a:hover .fa-bell {
+                                        -webkit-transform: rotateX(0deg);
+                                        transform: rotateX(0deg);
+                                    }
+                                </style>
+                                <a href="https://eduwork.id/profile/notification" class="" style="cursor: pointer" >
+                                    <i class="fa fa-bell icon-bell"></i>
+                                    
+                                </a>
+                            </li>
+                                            </ul>
+                </nav>
+            </div>
+            <!-- navigation  end -->
+        </div>
+    </header>
+
+    
+
+<style>
+.text-title-banner{
+  font-size: 40px;
+}
+.text-subtitle-banner {
+  font-size: 18px;
+}
+</style>
+
+<section class="content" style="margin-top: -80px;padding-bottom: 0;background-color: #F6FCFF;">
+	<div class="banner xs-pt-96" style="padding-top: 142px;" id="first-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 xs-mb-48" style="margin-top: 50px">
+					<div class="banner-text text-title-banner xs-text-36 xs-text-center">Pelatihan dan Penyaluran kerja!</div>
+					<div class="banner-sub-text text-subtitle-banner xs-text-center" style="font-weight: 900;">
+						<div>
+							Dapatkan gaji s.d lebih dari 10jt! Yuk, Pilih program sesuai dengan yang kamu inginkan!
+						</div>
+					</div>
+					<div class="banner-btn xs-text-center">
+						<a href="https://eduwork.id/m" class="mx-28 px-71 xs-w-full" id="register-homepage" style="position: relative;padding-right:36px!important;padding-left:36px!important;text-align: center;margin-top: 18px;display: inline-block;background-color: #FFD200;color: black;margin-right: 14px;">
+              Daftar
+              
+
+              <span style="position: absolute;transform: translate(0%,-50%);border-radius: 99999px;margin-top: -8px;font-size: 12px;color: white;background-color: red;padding: 5px 11px">Free</span>
+            </a>
+                                    <a href="https://eduwork.id/m?class_id=148" id="konsul-homepage" class="mx-28 px-71 xs-w-full" target="_blank" style="padding-right:36px!important;padding-left:36px!important;text-align: center;background-color: black;margin-top: 18px;display: inline-block;">
+              Konsul Dulu
+            </a>
+            					</div>
+				</div>
+				<div class="col-sm-7">
+					<img src="https://eduwork.id/templates/v1/landing/aniq.png" class="xs-ml--25" style="width: 100%;height: auto;" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="mb-60 xs-mb-0" style="background-color: #E8F7FF;">
+		<div class="container py-37">
+			<div class="row d-flex xs-display-block" style="align-items: center;">
+				<div class="col-sm-6 d-flex align-items-center" style="height: 100%;">
+					<h1 class="text-36 font-800 xs-mb-24">Apa itu Eduwork?</h1>
+				</div>
+				<div class="col-sm-6">
+					<div class="text-18 font-500 text-left">
+						Platform Pelatihan & Penyaluran kerja. Kamu bisa belajar dari 0 sampai bisa dan dapat kerja, dijamin!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container py-24 text-left xs-text-center">
+		<div class="row d-flex xs-display-block" style="align-items: center;">
+			<div class="col-sm-7 xs-mb-24" style="height: 100%;">
+				<h1 class="text-36 xs-text-28 font-800 mb-12">
+					Dibimbing Sampai Bisa!
+				</h1>
+				<h4 class="text-18 font-800 mb-24">
+					Walaupun kamu tidak memiliki  latar
+					belakang skill digital. Kamu masih bisa
+					belajar karena materi di sesuaikan
+					untuk pemula. Dan akan dibimbing
+					oleh mentor/praktisi.
+				</h4>
+			</div>
+			<div class="col-sm-5">
+				<img src="https://eduwork.id/templates/v1/landing/free 2.png" style="width: 100%;">
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="container">
+		<div class="divider"></div>
+	</div> -->
+
+	<div class="display-none xs-display-block" style="background-color: #E8F7FF;">
+		<div class="container py-37 text-right xs-text-center xs-px-14 rounded-md" >
+			<div class="row d-flex xs-display-block" style="align-items: center;">
+				<div class="col-sm-7 xs-mb-24" style="height: 100%;">
+					<h1 class="text-36 xs-text-28 font-800 mb-12">
+						Murah, Bisa dicicil!
+					</h1>
+					<h4 class="text-18 font-800 mb-24">
+
+						Bisa mulai dari 1jt, pelunasan bisa dicicil sampai 6 bulan.
+          				Dengan gaji sampai dengan 10jt lebih, 1x gaji sudah balik modal untuk menutup total biaya!
+
+					</h4>
+				</div>
+				<div class="col-sm-5">
+					<img src="https://eduwork.id/templates/v1/landing/free 3.png" style="width: 100%;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container p-24 text-right xs-text-center display-block xs-display-none xs-px-14 rounded-md" style="background-color: #E8F7FF;">
+		<div class="row d-flex xs-display-block" style="align-items: center;">
+			<div class="col-sm-5 xs-mb-24">
+				<img src="https://eduwork.id/templates/v1/landing/free 3.png" style="width: 100%;">
+			</div>
+			<div class="col-sm-7" style="height: 100%;">
+				<h1 class="text-36 font-800 mb-12">
+					Murah, Bisa dicicil!
+				</h1>
+				<h4 class="text-18 font-800 mb-24">
+          		Bisa mulai dari 1jt, pelunasan bisa dicicil sampai 6 bulan. Dengan gaji sampai dengan 10jt lebih,
+          		1x gaji sudah balik modal untuk menutup total biaya!
+        </h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="container py-24 mb-60 text-left xs-text-center">
+		<div class="row d-flex xs-display-block" style="align-items: center;">
+			<div class="col-sm-7 xs-mb-24" style="height: 100%;">
+				<h1 class="text-36 xs-text-28 font-800 mb-12">
+					Disalurkan Kerja, Dijamin!
+				</h1>
+				<h4 class="text-18 font-800 mb-24">
+					Selain kalian akan dibimbing sampai bisa. Kamu juga akan dicarikan kerja sampai dapat loh, Ayo tunggu apalagi mumpung program ini masih ada
+				</h4>
+			</div>
+			<div class="col-sm-5">
+				<img src="https://eduwork.id/templates/v1/landing/free 4.png" style="width: 100%;">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container py-24 mb-60 text-left xs-text-center"  style="border-radius: 15px;color:white;padding:24px;background-color: #1056BF;">
+		<div class="row d-flex xs-display-block" style="align-items: center;">
+			<div class="col-sm-5 xs-mb-24">
+				<img src="https://eduwork.id/templates/v1/landing/apaituisa.png" style="width: 100%;">
+			</div>
+			<div class="col-sm-7" style="height: 100%;">
+				<h1 class="text-36 xs-text-24 font-800 mb-12 ">
+        Belum punya uang? tenang dengan Metode ISA kamu bisa belajar tanpa modal (Rp. 0,-)
+				</h1>
+				<h4 class="text-18 xs-text-16 font-800 mb-24">
+				Dengan program Income Sharing Agreement, kamu bisa fokus belajar dulu, bayarnya nanti setelah mendapatkan kerja / penghasilan.
+				</h4>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container text-center" style="text-align: center;">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 xs-mb-24">
+				<div class="container py-37">
+					<div class="row xs-display-block" style="align-items: center;">
+						<div class="col-sm-12 d-flex align-items-center" style="height: 100%;margin-bottom: 24px;">
+							<h1 class="font-800 xs-mb-24" style="font-size: 28px;">Keunggulan Program ISA</h1>
+						</div>
+						<div class="col-sm-12">
+							<div class="text-18 font-500 text-left">
+								<ul>
+									<li style="list-style-type: disc;">Fokus belajar terlebih dahulu, bukan pada biaya</li>
+									<li style="list-style-type: disc;">Sistem pembayaran fleksibel</li>
+									<li style="list-style-type: disc;">Tetap bisa dapat semua benefit Eduwork </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 xs-mb-24" >
+				<div class="container py-37">
+					<div class="row xs-display-block" style="align-items: center;">
+						<div class="col-sm-12 d-flex align-items-center" style="height: 100%;margin-bottom: 24px;">
+							<h1 class="text-36 font-800 xs-mb-24" style="font-size: 28px;">Syarat Program ISA</h1>
+						</div>
+						<div class="col-sm-12">
+							<div class="text-18 font-500 text-left">
+								<ul>
+									<li style="list-style-type: disc;">Usia 17 - 29 Tahun</li>
+									<li style="list-style-type: disc;">Siap disalurkan bekerja</li>
+									<li style="list-style-type: disc;">Ada komitmen jaminan</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner-basic banner-reward xs-mt-0 mb-60 py-37" style="margin-top: 84px;background-color: #1056BF;">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-sm-7 d-flex reward-sh" style="min-height: 583px;align-items: center;">
+					<div class="">
+						<div class="title color-white" style="text-align: left;">
+							Dapatkan fasilitas dan bonus menarik berupa
+						</div>
+						<div class="list-wrapper-reward d-flex color-white">
+							<ul>
+								<li>
+									10.000++ hiring partner
+								</li>
+								<li>
+									Expert tutor
+								</li>
+								<li>
+									Portfolio real project
+								</li>
+								<li>
+									Live mentoring
+								</li>
+								<li>
+									Live class zoom
+								</li>
+								<li>
+									Pendampingan diawal kerja
+								</li>
+								<li>
+									Cicilan setelah bekerja
+								</li>
+								<li>
+									Tutorial video
+								</li>
+							</ul>
+							<ul>
+								<li>Profesional Networking</li>
+								<li>Grup diskusi WhatsApp</li>
+								<li>Praktek real project</li>
+								<li>Video materi</li>
+								<li>Belajar sampai bisa</li>
+								<li>Dapat dicicil 6-12 kali</li>
+								<li>Disalurkan kerja</li>
+								<li>Sertifikat</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-sm-5">
+					<div class="d-flex" style="justify-content: center;">
+						<img class="photo" src="https://eduwork.id/templates/v1/landing/top-view-office-desk-composition-with-notepad 1.png" style="width: 738px;border-radius: 15px;" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="banner-social-preview">
+		<div class="container xs-pt-0">
+			<img src="https://eduwork.id/templates/v1/landing/benefit-video_meet.png" style="width: 100%;">
+			<img src="https://eduwork.id/templates/v1/landing/image_13.png" style="width: 832px;padding-top: 50px;">
+			<div class="banner-basic pt-50" style="padding-top: 60px;">
+				<div class="title pb-48">Dapatkan Fasilitas dan Bonus Menarik</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner-basic mb-60 xs-mb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="d-flex boxed">
+						<div>
+							<img src="https://eduwork.id/templates/v1/landing/chat.png" class="icon w-40" style="width: 75px;height: 75px;">
+						</div>
+						<div>
+							<div class="title-sm title-smm">Bebas Konsultasi</div>
+							<div class="description-sm description-smm">Bebas konsultasi dengan mentor secara private 1 on 1</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="d-flex boxed" style="margin-bottom: 24px;">
+						<div>
+							<img src="https://eduwork.id/templates/v1/landing/video.png" class="icon">
+						</div>
+						<div>
+							<div class="title-sm title-smm">Video Materi</div>
+							<div class="description-sm description-smm">Pelajari materi kapan saja dimana saja</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="d-flex boxed">
+						<div>
+							<img src="https://eduwork.id/templates/v1/landing/Whatsapp.png" class="icon w-35">
+						</div>
+						<div>
+							<div class="title-sm title-smm">Group WhatsApp</div>
+							<div class="description-sm description-smm">Networking dan diskusi dengan siswa lainnya</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="d-flex boxed">
+						<div>
+							<img src="https://eduwork.id/templates/v1/landing/Clipboard.png" class="icon w-57">
+						</div>
+						<div>
+							<div class="title-sm title-smm">Tugas Praktek</div>
+							<div class="description-sm description-smm">Pemberian tugas praktek di tiap materi</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="banner-basic mb-60 pricing" id="section-pricing">
+  <div class="container">
+    <div class="title pb-24" style="margin: auto;text-align: center;">
+      Jelajahi Kelas yang Sesuai Denganmu
+    </div>
+    <div class="subtitle pb-24" style="margin: auto;">
+      Pilih kelas sesuai topik yang kamu minati
+    </div>
+
+    <div style="background-color: #E8F7FF;display:block;cursor:pointer;" id="youtube-frame-extend">
+      <div class="p-24 pb-0 xs-p-0 xs-mb-0">
+        <img class="h-467 xs-h-250" style="width: auto;object-fit: contain;width:100%;" src="https://eduwork.id/images/yt_img.PNG" />
+      </div>
+    </div>
+        <div style="background-color: #E8F7FF;display:none;" id="youtube-extend">
+      <div class="p-24 pb-0 xs-p-0 xs-mb-0">
+        <div class="h-467 xs-h-250" style="width: auto;">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/co-phhoeRBY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Intro Free Class"></iframe>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+    <div class="row">
+        
+        <div class="col-sm-12 xs-px-37 xs-pb-24">
+            <div>
+                <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                    Konsultasi
+                </div>
+                <div class="subtitle text-left text-18 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                  Bingung mau masuk kelas apa ? Bingung juga passion kamu sebenernya apa sih ? Jangan khawatir, yuk langsung Konsul dengan Eduwork biar kamu ga salah pilih kelas.
+                </div>
+                
+            </div>
+            <div class="text-right xs-text-left">
+                
+                <a href="https://eduwork.id/m?class_id=148" target="_blank" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                  Konsul Dulu
+                </a>
+                <a href="https://eduwork.id/m?class_id=148" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+                style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="baccordion-dm" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+        <div class="row mt-24">
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Intro
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Digital Marketing Fundamental</li>
+                                <li>Career Preparation</li>
+                                <li>Market Research & Design Thinking</li>
+                                <li>Channel Online Marketing</li>
+                                <li>Cara memilih channel marketing</li>
+                                <li>Organic VS Paid Channel</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Social Media Organik
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Understanding landscape of major social media platforms    </li>
+                                <li>Goals & strategies</li>
+                                <li>Identifying target audience</li>
+                                <li>Rules of engagement</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        SEO
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>SEO Introduction</li>
+                                <li>Keyword Research, sort tail & long tail</li>
+                                <li>On page & Off page optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Working with Google
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro Google Ads</li>
+                                <li>SEM/GSN</li>
+                                <li>GDN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Google Analytics
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Bagaimana Cara Kerja Google Analytics</li>
+                                <li>Tampilan Google Analytics</li>
+                                <li>Setup Google Analytics</li>
+                                <li>Google Analytics basic reports</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        FB Ads
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Pengenalan Facebook Ads</li>
+                                <li>Persiapan Facebook Ads</li>
+                                <li>Setup Business Setting</li>
+                                <li>Matrik & Analisa Iklan</li>
+                                <li>Split Testing</li>
+                                <li>Custom Audiance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="py-24">
+          <div class="subtitle" style="margin: auto; padding-bottom: 0!important;margin-bottom: 24px!important;">
+            Kelas Lainnya
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+    <div class="row">
+        <div class="col-sm-5 xs-mb-24">
+            <img src="https://eduwork.id/templates/v1/landing/v1-laravelvue.png" style="width: 100%;" />
+        </div>
+        <div class="col-sm-7 xs-px-37 xs-pb-24">
+            <div>
+                <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                    Laravel Vuejs
+                </div>
+                <div class="subtitle text-left text-18 pb-24 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                    Ga Punya Background IT? Jangan Panik, Kamu Tetap Bisa Belajar dan Paham
+                    bareng Eduwork di kelas ini. Materinya sudah di sesuaikan, dan mudah dipahami
+                    walaupun kamu tidak punya Background IT sekalipun. Apalagi ada Mentor Praktisi
+                    yang akan mendampinginmu sampai bisa.
+                </div>
+                
+            </div>
+            <div class="text-right xs-text-left">
+                
+                <a href="https://eduwork.id/m?class_id=148" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                  Konsul Dulu
+                </a>
+                <a href="https://eduwork.id/m?class_id=128" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+                style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="baccordion-web" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+        <div class="row mt-24">
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                <div class="mb-24">
+                        <div class="title-sm">
+                            Git
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Membuat Repo</li>
+                                <li>Push / pull project</li>
+                                <li>Git branch & merge</li>
+                                <li>Clone repo dari mentor</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                            Review PHP & MySQL
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Tipe daya mysql, primary key, foreign key</li>
+                                <li>Pengertian Website</li>
+                                <li>Relasi database</li>
+                                <li>Simple query mysql (Bagian 1)</li>
+                                <li>Apa itu database ?</li>
+                                <li>Simple query mysql (Bagian 2)</li>
+                                <li>Delete dan update</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Vue.js
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Basic Component</li>
+                                <li>Event Handling</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Laravel
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Introduction</li>
+                                <li>Installation</li>
+                                <li>Authentication</li>
+                                <li>Templating</li>
+                                <li>Migration and Model</li>
+                                <li>DB Seed</li>
+                                <li>Controller</li>
+                                <li>Route and View</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Tugas Besar
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Tugas Praktek</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+    <div class="row">
+        <div class="col-sm-5 xs-mb-24">
+            <img src="https://eduwork.id/templates/v1/landing/v1-dm.png" style="width: 100%;" />
+        </div>
+        <div class="col-sm-7 xs-px-37 xs-pb-24">
+            <div>
+                <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                    Digital Marketing
+                </div>
+                <div class="subtitle text-left text-18 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                  Ga Punya Background Digital marketing ? Jangan Panik, Kamu Tetap Bisa Belajar dan Paham bareng Eduwork di kelas ini. Materinya sudah di sesuaikan, dan mudah dipahami walaupun kamu tidak punya Background Marketing sekalipun. Apalagi ada Mentor Praktisi yang akan mendampinginmu sampai bisa.
+                </div>
+                
+            </div>
+            <div class="text-right xs-text-left">
+                
+                <a href="https://eduwork.id/m?class_id=148" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                  Konsul Dulu
+                </a>
+                <a href="https://eduwork.id/m?class_id=115" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+                style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="baccordion-dm" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+        <div class="row mt-24">
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Intro
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Digital Marketing Fundamental</li>
+                                <li>Career Preparation</li>
+                                <li>Market Research & Design Thinking</li>
+                                <li>Channel Online Marketing</li>
+                                <li>Cara memilih channel marketing</li>
+                                <li>Organic VS Paid Channel</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Social Media Organik
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Understanding landscape of major social media platforms    </li>
+                                <li>Goals & strategies</li>
+                                <li>Identifying target audience</li>
+                                <li>Rules of engagement</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        SEO
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>SEO Introduction</li>
+                                <li>Keyword Research, sort tail & long tail</li>
+                                <li>On page & Off page optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Working with Google
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro Google Ads</li>
+                                <li>SEM/GSN</li>
+                                <li>GDN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Google Analytics
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Bagaimana Cara Kerja Google Analytics</li>
+                                <li>Tampilan Google Analytics</li>
+                                <li>Setup Google Analytics</li>
+                                <li>Google Analytics basic reports</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        FB Ads
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Pengenalan Facebook Ads</li>
+                                <li>Persiapan Facebook Ads</li>
+                                <li>Setup Business Setting</li>
+                                <li>Matrik & Analisa Iklan</li>
+                                <li>Split Testing</li>
+                                <li>Custom Audiance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+    <div class="row">
+        <div class="col-sm-5 xs-mb-24">
+            <img src="https://eduwork.id/templates/v1/landing/v1-mern.png" style="width: 100%;" />
+        </div>
+        <div class="col-sm-7 xs-px-37 xs-pb-24">
+            <div>
+                <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                MERN (mongoDB, Express,ReactJs, NodeJs)
+                </div>
+                <div class="subtitle text-left text-18 pb-24 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                    Ga Punya Background IT? Jangan Panik, Kamu Tetap Bisa Belajar dan Paham
+                    bareng Eduwork di kelas ini. Materinya sudah di sesuaikan, dan mudah dipahami
+                    walaupun kamu tidak punya Background IT sekalipun. Apalagi ada Mentor Praktisi
+                    yang akan mendampinginmu sampai bisa.
+                </div>
+                
+            </div>
+            <div class="text-right xs-text-left">
+                
+                <a href="https://eduwork.id/m?class_id=148" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                  Konsul Dulu
+                </a>
+                <a href="https://eduwork.id/m?class_id=129" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+                style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="baccordion-mern" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+        <div class="row mt-24">
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                            Git
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro</li>
+                                <li>Fundamental</li>
+                                <li>Branch</li>
+                                <li>GUI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                            Fronted
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>CSS Flexbox</li>
+                                <li>Bootstrap</li>
+                                <li>Bootstrap Grid System</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                            Javascript OOP
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Basic OOP</li>
+                                <li>Module System</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Asynchronous
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Concepts</li>
+                                <li>Callback [1]</li>
+                                <li>Promise</li>
+                                <li>Rest Parameter</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                            React JS
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro</li>
+                                <li>Basic Components</li>
+                                <li>Styling Components</li>
+                                <li>Rendering Variable</li>
+                                <li>Form & Validation</li>
+                                <li>Hook</li>
+                                <li>Routing</li>
+                                <li>Redux</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        NodeJs x Express JS
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Node JS</li>
+                                <li>Express JS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        MongoDB
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro, install & konfigurasi</li>
+                                <li>CRUD operation & authentication</li>
+                                <li>API (Express x Mongo)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        MySQL
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Pengenalan database</li>
+                                <li>CRUD MySQL</li>
+                                <li>API (Express & Mysql)</li>
+                                <li>Relational</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Studi Kasus (Backend)
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Overview RESTFull API POS System</li>
+                                <li>Setup & Configuration</li>
+                                <li>Membuat API Products</li>
+                                <li>Membuat API Categories</li>
+                                <li>Membuat API Tags</li>
+                                <li>Relasi Products & Categories & Tags</li>
+                                <li>Menyediakan Filtes, Count & Pagination</li>
+                                <li>Authentication with Passport JS & JWT</li>
+                                <li>Authorization with CASL</li>
+                                <li>Membuat API Alamat Pengiriman</li>
+                                <li>Membuat API Cart</li>
+                                <li>Membuat API Order</li>
+                                <li>Membuat API Invoice</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        Studi Kasus (Frontend)
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <!-- <li></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+    <div class="row">
+        <div class="col-sm-5 xs-mb-24">
+            <img src="https://eduwork.id/templates/v1/landing/v1-qa.png" style="width: 100%;" />
+        </div>
+        <div class="col-sm-7 xs-px-37 xs-pb-24">
+            <div>
+                <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                    QA Engineer Automation
+                </div>
+                <div class="subtitle text-left text-18 pb-24 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                  Cara tercepat jadi QA Automation Engineer adalah dengan bimbingan intensif
+                  dari ahlinya, serta mempelajari kurikulum terstruktur yang dilengkapi banyak
+                   study case. Izinkan Sekolah QA membantumu mendapatkan karir impianmu.
+                </div>
+                
+            </div>
+            <div class="text-right xs-text-left">
+                
+                <a href="https://eduwork.id/m?class_id=148" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                  Konsul Dulu
+                </a>
+                <a href="https://eduwork.id/m?class_id=106" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+                style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="baccordion-qa" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+        <div class="row mt-24">
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 1
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Development Process</li>
+                                <li>Mengenalkan Konsep Agile</li>
+                                <li>Mengenal QA Engineer</li>
+                                <li>Bagaimana cara bertanya yang baik</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 2
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Mengenal Software Testing</li>
+                                <li>Mengenal Manual Testing</li>
+                                <li>Mengenal Automation Testing</li>
+                                <li>Test Case Development</li>
+                                <li>Apa itu database ?</li>
+                                <li>Tools yang dibutuhkan</li>
+                                <li>Web Server</li>
+                                <li>Text Editor</li>
+                                <li>Praktek</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 3
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Memahami Metodologi Agile dan Model</li>
+                                <li>Mengenal Agile Testing</li>
+                                <li>Mengenal Scrum Testing Metodologi</li>
+                                <li>Clickup sebagai tool kolaborasi tim</li>
+                                <li>Implementasi board dengan clickup</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 4
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Git Fundamental</li>
+                                <li>Macam Macam Atribut [Materi + Tugas]</li>
+                                <li>JS Syntax</li>
+                                <li>JS Variable</li>
+                                <li>JS Data Types</li>
+                                <li>JS Function</li>
+                                <li>JS Objects</li>
+                                <li>JS Conditions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 5
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Install & Setup Cypress</li>
+                                <li>Test Script</li>
+                                <li>Assertions</li>
+                                <li>Interacting with Elements</li>
+                                <li>Fixtures and Static Data</li>
+                                <li>Custom Commands</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 6
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Project Setup</li>
+                                <li>E2E Search Box</li>
+                                <li>E2E Login & Logout</li>
+                                <li>E2E Navbar Links</li>
+                                <li>E2E All Process in Web</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 7
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Project Setup (BDD)</li>
+                                <li>Cypress JSON Setup</li>
+                                <li>Features</li>
+                                <li>Step Definitions</li>
+                                <li>Run Test (Complete BDD)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+                <div class="pm-24 xs-p-0 min-h-auto">
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 8
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Intro API Testing </li>
+                                <li>HTTP Method GET</li>
+                                <li>HTTP Method POST </li>
+                                <li>HTTP Method PUT</li>
+                                <li>HTTP Method DELETE</li>
+                                <li>API Authentication</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 9
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Validate Header</li>
+                                <li>Validate Status Code</li>
+                                <li>Validate Content</li>
+                                <li>Negative Response</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-24">
+                        <div class="title-sm">
+                        WEEK 10
+                        </div>
+                        <div class="description-sm d-flex" style="width: 100%;">
+                            <ul class="w-100 pr-0">
+                                <li>Introduction Katalon Studio</li>
+                                <li>Instal & Setup for Android & IOS Testing</li>
+                                <li>Record Mobile for create test case</li>
+                                <li>Spy Mobile for create test case</li>
+                                <li>Create Test Suites</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+      </div>
+      <div class="col-xs-12 col-sm-12">
+        <div class="p-24 xs-p-0 mb-24" style="background-color: #E8F7FF;">
+  <div class="row">
+      <div class="col-sm-5 xs-mb-24">
+          <img src="https://eduwork.id/templates/v1/landing/v1-uiux.png" style="width: 100%;" />
+      </div>
+      <div class="col-sm-7 xs-px-37 xs-pb-24">
+          <div>
+              <div class="title text-left pb-24" style="margin: auto;text-align: left;">
+                  UI / UX Designer
+              </div>
+              <div class="subtitle text-left text-18 xs-text-14 xs-text-justify xs-display-none" style="margin: auto;padding-bottom: 24px">
+                UI/UX memainkan peran penting dalam mencapai tujuan tersebut. Desain UI/UX bisa meningkatkan pengalaman pengguna di aplikasi dan kepuasan pengguna secara keseluruhan. Ini jelas bisa meningkatkan jumlah pengguna baru, sebab pengguna lama akan merekomendasikan aplikasi tersebut kepada teman, kerabat, dan lain-lain.
+              </div>
+              
+          </div>
+          <div class="text-right xs-text-left">
+              
+              <a href="https://eduwork.id/m?class_id=148" class="btn ml-12 xs-ml-0 text-white xs-display-block xs-w-100pc text-18" style="text-align:center;background-color: black;margin-top: 18px;display: inline-block;">
+                Konsul Dulu
+              </a>
+              <a href="https://eduwork.id/m?class_id=180" class="btn text-black border-none text-18 ml-12 xs-ml-0 xs-mt-24 xs-display-block xs-w-100pc"
+              style="cursor: pointer" data-class="133"><strong>Daftar Sekarang</strong></a>
+          </div>
+      </div>
+  </div>
+  <div id="baccordion-dm" class="baccordion-wrapper display-none xs-px-37 xs-pb-24">
+      <div class="row mt-24">
+          <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+              <div class="pm-24 xs-p-0 min-h-auto">
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      Intro
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>Digital Marketing Fundamental</li>
+                              <li>Career Preparation</li>
+                              <li>Market Research & Design Thinking</li>
+                              <li>Channel Online Marketing</li>
+                              <li>Cara memilih channel marketing</li>
+                              <li>Organic VS Paid Channel</li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      Social Media Organik
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>Understanding landscape of major social media platforms    </li>
+                              <li>Goals & strategies</li>
+                              <li>Identifying target audience</li>
+                              <li>Rules of engagement</li>
+                          </ul>
+                      </div>
+                  </div>
+
+
+
+              </div>
+          </div>
+
+          <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+              <div class="pm-24 xs-p-0 min-h-auto">
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      SEO
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>SEO Introduction</li>
+                              <li>Keyword Research, sort tail & long tail</li>
+                              <li>On page & Off page optimization</li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      Working with Google
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>Intro Google Ads</li>
+                              <li>SEM/GSN</li>
+                              <li>GDN</li>
+                          </ul>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="col-sm-4 pm-24 xs-p-0 xs-px-0">
+              <div class="pm-24 xs-p-0 min-h-auto">
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      Google Analytics
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>Bagaimana Cara Kerja Google Analytics</li>
+                              <li>Tampilan Google Analytics</li>
+                              <li>Setup Google Analytics</li>
+                              <li>Google Analytics basic reports</li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="mb-24">
+                      <div class="title-sm">
+                      FB Ads
+                      </div>
+                      <div class="description-sm d-flex" style="width: 100%;">
+                          <ul class="w-100 pr-0">
+                              <li>Pengenalan Facebook Ads</li>
+                              <li>Persiapan Facebook Ads</li>
+                              <li>Setup Business Setting</li>
+                              <li>Matrik & Analisa Iklan</li>
+                              <li>Split Testing</li>
+                              <li>Custom Audiance</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+	
+
+	
+
+  <div class="banner-pricing mb-60p xs-mb-1211">
+		<div class="jumbotron d-flex">
+			<div>
+				<div class="title pb-0">
+					Pilih dan tentukan program Yang Menentukan masa depanmu!
+				</div>
+				<div class="subtitle" style="text-align: center;margin: auto;margin-bottom: 24px;">
+					Daftar Program Reguler Bulan ini Dan Dapatkan Potongan Harga Langsung!!!
+				</div>
+                        <a id="wa-konsul-homepage"  href="https://eduwork.id/m" class="btn d-flex btn-ask" target="_blank" style="align-items: center;justify-content: center;margin: auto;">
+					<i class="fa fa-whatsapp" aria-hidden="true" style="margin-right: 8px;"></i>
+					Konsul Dulu
+				</a>
+        			</div>
+
+		</div>
+		<div class="plan">
+			<div class="content d-flex" style="border: 2px solid #FFD200;box-shadow: 0px 4px 38px 3px rgba(0, 0, 0, 0.25);">
+				<div class="badge" style="margin-top: 20px;margin-bottom: 20px;">Recomended</div>
+				<div class="plan-wrap">
+					<div class="plan-title">
+						<div style="font-size: 40px;">REGULAR</div>
+						<div style="font-size: 12px;opacity: 0.6;">MODAL MULAI</div>
+						<div style="text-decoration: line-through;text-decoration-color: red;font-size: 18px;">Rp. 8.000.000</div>
+					</div>
+					<div class="plan-price">
+						1 Jt
+					</div>
+					<div class="plan-badge">Total 6jt , Cicilan 1jt/ bulan x 6 bulan</div>
+					<ul class="plan-list-description" style="margin-top: 24px;">
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Mentoring 1 on 1</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Live group Mentoring seminggu 1x</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>32 Video Materi + Bonus 45 Video</div>
+						</li>
+
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Pendampingan kerja</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Cicilan hingga 6x</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Sertifikat</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Tanpa seleksi</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Lebih Terjangkau dari Program ISA</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Penyaluran Kerja</div>
+						</li>
+					</ul>
+					<div style="padding-left: 16px;padding-right: 16px;">
+            <a href="https://eduwork.id/m" class="btn" style="cursor: pointer"><strong>Daftar Sekarang</strong></a>
+          </div>
+				</div>
+			</div>
+			<div class="content d-flex">
+				<div class="badge" style="margin-top: 20px;margin-bottom: 20px;background-color: #FFD200;color: black;">Best Offer!</div>
+				<div class="plan-wrap">
+					<div class="plan-title">
+						<div style="font-size: 40px;">ISA</div>
+						<div style="font-size: 12px;opacity: 0.6;">MODAL MULAI</div>
+						<div style="text-decoration: line-through;text-decoration-color: red;font-size: 18px;">Rp. 6.000.000</div>
+					</div>
+					<div class="plan-price">0</div>
+					<div class="plan-badge">Total 12jt, Cicilan 12 bulan dibayar setelah kerja</div>
+					<!-- <div style="margin-bottom: 11px;">
+
+					</div> -->
+					<div style="font-size:12px; border-radius: 15px;background: #1056BF;color: white;padding: 15px 20px;margin: 12px;text-align: left;font-weight: 600;">
+						ISA ( Income Sharing Agreement ), untuk kamu yang belum berpenghasilan / punya dana, cicilan dibayar setelah kamu kami salurkan kerja, Penyaluran kerja dijamin !
+					</div>
+					<ul class="plan-list-description">
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Dapat semua Fasilitas Program Reguler</div>
+						</li>
+						<li>
+							<img class="photo" src="https://eduwork.id/templates/v1/landing/Vector (1).png" />
+							<div>Bisa Mulai dari Rp 0,-</div>
+						</li>
+					</ul>
+					<div class="plan-desc-m" style="margin-top: 18px;">
+						<ul class="">
+							<li>&bull; Bayar setelah disalurkan bekerja</li>
+							<li>&bull; Total biaya jadi 12 Jt</li>
+							<li>&bull; Total cicilan jadi 12x</li>
+							<li>&bull; Ada tahap seleksi</li>
+						</ul>
+					</div>
+					<div style="padding-left: 16px;padding-right: 16px;">
+							<a class="btn" href="https://eduwork.id/m" style="cursor: pointer">Daftar Sekarang</a>
+               		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="banner-basic" style="position: relative;">
+		<img src="https://eduwork.id/templates/v1/landing/austin-distel-wawEfYdpkag-unsplash 1.png" style="opacity: .2;height: 424px;position: absolute; bottom: -0px;left: 0;" />
+
+		<!-- TESTIMONI -->
+		<div class="container mb-60">
+			<div class="title" style="padding-bottom: 60px;">Testimoni</div>
+
+			<div class="hslide-wrapper" style="position: relative;">
+				<div class="hslide">
+
+									<!-- ITEM -->
+          <div class="hslide-item">
+
+            <div class="d-flex" style="padding-bottom: 20px;align-items: center;">
+              <img src="https://eduwork.id/images/avatar/1.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Frada
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              Setelah lulus saya berkeinginan untuk mengasah skill lebih dalam lagi agar jadi programmer yang siap kerja. Eduwork lah jawabanya, saya mendapatkan arahan yang tepat. Metode belajar yang asik dan mentor yang selalu membantu memecahkan masalah.
+            </div>
+          </div>
+          <!-- END ITEM -->
+
+          <!-- ITEM -->
+          <div class="hslide-item hslide-item-active">
+
+            <div class="d-flex" style="padding-bottom: 20px;">
+              <img src="https://eduwork.id/images/avatar/3.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Bachtiar
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              Proses belajar nya keren membuat saya bisa mengembangkan skill dengan cepat, silabus nya terstruktur dan diberi case nyata yang sesuai dengan kondisi diluar sana, jadi kita juga up to date sama kebutuhan teknologi nya. Pokoknya keren.
+            </div>
+          </div>
+          <!-- END ITEM -->
+          <!-- ITEM -->
+          <div class="hslide-item">
+
+            <div class="d-flex" style="padding-bottom: 20px;">
+              <img src="https://eduwork.id/images/avatar/pajar.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Pajar
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              Saya seorang lulusan SMK, materi dan bimbingan yang diberikan sangat baik untuk di dunia kerja. mentor yang berpengalaman selalu membantu masalah yang ada selama belajar. langsung dibantu disalurkan ke perusahaan, dan terbukti bahwa saya bisa mendapatkan tawaran kerja di 3 perusahaan berbeda. Luar biasa!
+            </div>
+          </div>
+          <!-- END ITEM -->
+          <!-- ITEM -->
+          <div class="hslide-item">
+
+            <div class="d-flex" style="padding-bottom: 20px;">
+              <img src="https://eduwork.id/images/avatar/galih.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Galih
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              didunia pemrograman menghapal syntax tidak prioritas, karena bisa dilihat di dokumentasi. disini saya mendapatkan arahan yang tepat bagaimana memecahkan masalah yang besar dibagi menjadi masalah yang kecil sehingga bisa diselesaikan bertahap. dengan arahan yang mudah dimengerti
+            </div>
+          </div>
+          <!-- END ITEM -->
+          <!-- ITEM -->
+          <div class="hslide-item">
+
+            <div class="d-flex" style="padding-bottom: 20px;">
+              <img src="https://eduwork.id/images/avatar/fahza.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Fahza
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              sangat bagus & sangat jelas saya yg sebelumnya tidak pernah menggunakan framework laravel jdi sanggar akrab dgn laravel dan setiap peserta yang sudah lulus bisa mendapatkan portofolio untuk bekal melamar di perusahaan, diajarkan softskill seperti tips trik saat interview
+            </div>
+          </div>
+          <!-- END ITEM -->
+          <!-- ITEM -->
+          <div class="hslide-item">
+
+            <div class="d-flex" style="padding-bottom: 20px;">
+              <img src="https://eduwork.id/images/avatar/imam.jpg" style="align-items: center;margin-right: 11px;width: 60px;border-radius: 15px;height: 60px;" />
+              <div style="display: inline-block;">
+                <div style="font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height */
+
+                text-align: left;
+                letter-spacing: 0.01em;
+
+                color: #000000;">
+                  Imam
+                </div>
+                <div style="font-weight: normal;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+
+                /* Grey Purp */
+                text-align: left;
+
+                color: #A1B0C7;
+                ">
+                  Programmer
+                </div>
+              </div>
+              <img src="https://eduwork.id/templates/v1/landing/petik.png" style="width: 54px;height: 54px;margin-left: auto;margin-right: 0;" />
+
+            </div>
+            <div style="font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            /* Base Black */
+
+            color: #404040;">
+              Pembelajaran yg interaktif membuat suasana belajar menjadi seru, mentor yg ramah membuat nyaman suasana belajar, arahan dari mentor jelas dan mudah dipahami, yg menjadi nilai tambah adalah adanya pembelajaran untuk debuging saat develop sistem
+            </div>
+          </div>
+          <!-- END ITEM -->
+				
+			</div>
+			<button type="button" class="hslide-prev nav-colored"><</button>
+			<button type="button" class="hslide-next nav-colored">></button>
+			</div>
+		</div>
+
+		<!-- END TESTIMONY -->
+
+	</div>
+
+	<div class="banner-basic banner-basic-gradient footer" style="color: white!important;z-index: 9999;padding-bottom: 0px!important;margin-bottom: 0px!important;">
+		<div class="container">
+			<div class="title" style="padding-bottom: 60px;color: white;">Informasi Yang Sering Di Tanyakan</div>
+			<div class="accordion" id="faq">
+
+				<div class="row" style="z-index: 9999!important;">
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title accordion-title2 text-12" href="#" style="background-color: white!important;">
+							<div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">
+								1
+							</div>
+							Eduwork itu apa ?
+							<i class="fa fa-angle-down"></i>
+						</a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        Platform yang membantu kamu mendapatkan pekerjaan, di bimbing oleh mentor yang akan menjadi teman seperjuanganmu dalam belajar & ber-karir.
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title text-12" href="#" style="background-color: white!important;"><div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">2</div> Bagaimana Proses seleksinya ?   <i class="fa fa-angle-down"></i></a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        Dengan menjawab soal soal yang ada diberikan melalui sistem yang sudah disediakan diwebsite.
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title text-12" href="#" style="background-color: white!important;"><div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">3</div> Cara mendaftar ?   <i class="fa fa-angle-down"></i></a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        kamu hanya perlu mendaftar di website dengan fasilitas yang sudah disediakan, bisa menggunakan akun facebook, akun gmail atau akun email biasa
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title text-12" href="#" style="background-color: white!important;"><div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">4</div> Bagaimana proses belajarnya ?   <i class="fa fa-angle-down"></i></a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        Proses belajar bisa offline / online, ketentuan belajar disepakati masing - masing oleh mentor dengan peserta.
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title text-12" href="#" style="background-color: white!important;"><div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">5</div> Apakah ada persyaratan ?   <i class="fa fa-angle-down"></i></a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        Persayaratan tergantung mentor masing - masing. yang paling penting memiliki komitmen yang tinggi. Metode ISA persyaratan khusus bersedia langsung bekerja setelah lulus
+					    </div>
+					</div>
+					<div class="col-sm-6">
+						<a class="toggle d-flex accordion-title text-12" href="#" style="background-color: white!important;"><div class="accordion-info" style="width: 18px!important;height: 18px!important;padding: 24px!important;">6</div> Bagaimana Penyalurannya ?   <i class="fa fa-angle-down"></i></a>
+					    <div class="accordion-inner" style="color:#000000!important;">
+					        Eduwork membantu menyalurkan peserta yang sudah lulus dengan cara menawarkan ke perusahaan-perusahaan yang telah bekerjasama dengan kami.
+
+					    </div>
+					</div>
+
+				</div>
+
+
+
+
+			</div>
+
+
+
+		</div>
+		<div class="container">
+			<div class="row" style="z-index: 99!important;">
+				<div class="col-sm-12">
+					<div  style="border-bottom: 1px solid white!important;height: 1px;margin-top: 60px;margin-bottom: 60px;"></div>
+				</div>
+				<div class="col-sm-4" style="margin-bottom: 11px;">
+					<div class="pb-0" style="margin-bottom: 20px;">
+						<img class="photo pt-24" src="https://eduwork.id/templates/v1/landing/eduwork_light.png" />
+					</div>
+					<div class="text" style="padding-bottom: 26px;">
+						E-Learning Platform Mentoring and Job Distribution, and which will become the first edutech marketplace in Indonesia.
+					</div>
+					<div class="sosmed">
+						<a href="https://instagram.com/eduwork.id" target="_blank">
+							<img src="https://eduwork.id/templates/v1/landing/instagram.png">
+						</a>
+						<!-- <a href="https://instagram.com/eduwork.id" target="_blank">
+							<img src="https://eduwork.id/templates/v1/landing/twitter.png">
+						</a> -->
+						<a href="https://www.youtube.com/channel/UCzu7aJOkvJfwJteHJnrrK6w" target="_blank">
+							<img src="https://eduwork.id/templates/v1/landing/youtube.png">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div>
+						<div class="title-2">
+							Our Services
+						</div>
+						<ul>
+							<li style="margin-left: 0!important;">
+								<a href="https://eduwork.id/kelas?type=private">Private Mentoring</a>
+							</li>
+							<li style="margin-left: 0!important;">
+								<a href="https://eduwork.id/kelas?type=webinar">Webinar</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div>
+						<div class="title-2">
+							Office
+						</div>
+						<ul>
+							<li style="margin-left: 0!important;">PT Talenta Sinergi Group</li>
+							<li style="margin-left: 0!important;">Kode Pos 55282</li>
+							<li style="margin-left: 0!important;">Jl. Ring Road Utara No. 34</li>
+							<li style="margin-left: 0!important;">Yogyakarta, Indonesia</li>
+							<li style="margin-left: 0!important;">team@eduwork.id</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <script>
+function callPlayer(frame_id, func, args) {
+    if (window.jQuery && frame_id instanceof jQuery) frame_id = frame_id.get(0).id;
+    var iframe = document.getElementById(frame_id);
+    if (iframe && iframe.tagName.toUpperCase() != 'IFRAME') {
+        iframe = iframe.getElementsByTagName('iframe')[0];
+    }
+
+    // When the player is not ready yet, add the event to a queue
+    // Each frame_id is associated with an own queue.
+    // Each queue has three possible states:
+    //  undefined = uninitialised / array = queue / .ready=true = ready
+    if (!callPlayer.queue) callPlayer.queue = {};
+    var queue = callPlayer.queue[frame_id],
+        domReady = document.readyState == 'complete';
+
+    if (domReady && !iframe) {
+        // DOM is ready and iframe does not exist. Log a message
+        window.console && console.log('callPlayer: Frame not found; id=' + frame_id);
+        if (queue) clearInterval(queue.poller);
+    } else if (func === 'listening') {
+        // Sending the "listener" message to the frame, to request status updates
+        if (iframe && iframe.contentWindow) {
+            func = '{"event":"listening","id":' + JSON.stringify(''+frame_id) + '}';
+            iframe.contentWindow.postMessage(func, '*');
+        }
+    } else if ((!queue || !queue.ready) && (
+               !domReady ||
+               iframe && !iframe.contentWindow ||
+               typeof func === 'function')) {
+        if (!queue) queue = callPlayer.queue[frame_id] = [];
+        queue.push([func, args]);
+        if (!('poller' in queue)) {
+            // keep polling until the document and frame is ready
+            queue.poller = setInterval(function() {
+                callPlayer(frame_id, 'listening');
+            }, 250);
+            // Add a global "message" event listener, to catch status updates:
+            messageEvent(1, function runOnceReady(e) {
+                if (!iframe) {
+                    iframe = document.getElementById(frame_id);
+                    if (!iframe) return;
+                    if (iframe.tagName.toUpperCase() != 'IFRAME') {
+                        iframe = iframe.getElementsByTagName('iframe')[0];
+                        if (!iframe) return;
+                    }
+                }
+                if (e.source === iframe.contentWindow) {
+                    // Assume that the player is ready if we receive a
+                    // message from the iframe
+                    clearInterval(queue.poller);
+                    queue.ready = true;
+                    messageEvent(0, runOnceReady);
+                    // .. and release the queue:
+                    while (tmp = queue.shift()) {
+                        callPlayer(frame_id, tmp[0], tmp[1]);
+                    }
+                }
+            }, false);
+        }
+    } else if (iframe && iframe.contentWindow) {
+        // When a function is supplied, just call it (like "onYouTubePlayerReady")
+        if (func.call) return func();
+        // Frame exists, send message
+        iframe.contentWindow.postMessage(JSON.stringify({
+            "event": "command",
+            "func": func,
+            "args": args || [],
+            "id": frame_id
+        }), "*");
+    }
+    /* IE8 does not support addEventListener... */
+    function messageEvent(add, listener) {
+        var w3 = add ? window.addEventListener : window.removeEventListener;
+        w3 ?
+            w3('message', listener, !1)
+        :
+            (add ? window.attachEvent : window.detachEvent)('onmessage', listener);
+    }
+}
+</script>
+  <script>
+    $(document).ready(function() {
+
+    var prev_item = $('.hslide-item-active').prev();
+    var next_item = $('.hslide-item-active').next();
+    var item_width = $('.hslide-item').outerWidth();
+    var parent_item_width = $('.hslide').outerWidth();
+    $('.hslide-item-active').css('left', ((parent_item_width)/2) - ((item_width)/2) );
+    next_item.css('left', $('.hslide-item-active').position().left+(item_width));
+
+    prev_item.css('left', $('.hslide-item-active').position().left-(item_width));
+
+    $('.hslide-next').on('click', function(e) {
+      $('.hslide-next').attr('disabled', true);
+
+      if($('.hslide-item-active').is(':last-child')) {
+        return;
+      }
+
+      $('.hslide-item').css('z-index', 1);
+
+      var current_item = $('.hslide-item-active');
+      var next_item_queue = $('.hslide-item-active').next();
+      var first_item_queue = $('.hslide').first().html();
+
+      current_item.removeClass('hslide-item-active');
+      current_item.animate({
+        'left': parseInt(current_item.position().left)-(item_width),
+        'opacity': 0.4,
+        'z-index': 9
+      });
+      current_item.css({
+        'z-index': 9,
+      });
+
+      current_item.prev().css('opacity', 0);
+
+      next_item_queue.addClass('hslide-item-active');
+      next_item_queue.animate({
+        'left': ((parent_item_width)/2) - ((item_width)/2),
+        'opacity': 1,
+        'z-index': 9999
+      }, {
+        done:function() {
+          if($('.hslide-item-active').is(':last-child')) {
+            $('.hslide-next').addClass('nav-disabled');
+            $('.hslide-next').removeClass('nav-colored');
+          } else {
+            $('.hslide-next').attr('disabled', false);
+            $('.hslide-next').removeClass('nav-disabled');
+            $('.hslide-next').addClass('nav-colored');
+          }
+          $('.hslide-item-active').next().css('opacity', 0.4);
+        }
+      });
+
+      next_item_queue.next().css('left', parseInt(current_item.position().left)+(item_width));
+
+
+      $('.hslide-prev').attr('disabled', false);
+      $('.hslide-prev').removeClass('nav-disabled');
+      $('.hslide-prev').addClass('nav-colored');
+    });
+
+    $('.hslide-prev').on('click', function(e) {
+      $('.hslide-prev').attr('disabled', true);
+
+      if($('.hslide-item-active').is(':first-child')) {
+        return;
+      }
+
+      $('.hslide-item').css('z-index', 1);
+
+
+      var current_item = $('.hslide-item-active');
+      var prev_item_queue = $('.hslide-item-active').prev();
+      var next_item_queue = $('.hslide-item-active').next();
+
+
+      current_item.removeClass('hslide-item-active');
+      current_item.animate({
+        'left': parseInt(current_item.position().left)+(item_width),
+        'opacity': 0.4,
+        'z-index': 9
+      });
+      current_item.next().css('opacity', 0);
+
+      prev_item_queue.addClass('hslide-item-active');
+      prev_item_queue.animate({
+        'left': ((parent_item_width)/2) - ((item_width)/2),
+        'opacity': 1,
+        'z-index': 999
+      }, {
+        done: function() {
+          if($('.hslide-item-active').is(':first-child')) {
+            $('.hslide-prev').removeClass('nav-colored');
+            $('.hslide-prev').addClass('nav-disabled');
+          } else {
+            $('.hslide-prev').attr('disabled', false);
+          }
+          $('.hslide-item-active').prev().css('opacity', 0.4);
+        }
+      });
+
+      $('.hslide-next').attr('disabled', false);
+      $('.hslide-next').removeClass('nav-disabled');
+      $('.hslide-next').addClass('nav-colored');
+    });
+
+    $('.baccordion').click(function(e) {
+      var target = $(this).data('target');
+      if( $(target).hasClass('display-none') || $(target).css('height') == 0) {
+        $(target).animate({
+          'display': 'block'
+        });
+        $(target).removeClass('display-none');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - 80
+          }, 1000);
+      } else {
+        $(target).addClass('display-none');
+        $(target).animate({
+          'display': 'none'
+        });
+      }
+    });
+
+    $('.should-register').click(function(e) {
+      var current_btn = $(this);
+      // $('html, body').animate({
+      //     scrollTop: $('body').offset().top
+      //   }, 1000);
+      // setTimeout(function(){
+
+      // }, 1000);
+      // $('.modal-open').click();
+      var selected_program = current_btn.data('program');
+      // var class_id = current_btn.data('class');
+      var class_id = 148;
+                  document.location.href = 'https://eduwork.id/kelas/register/'+class_id+'/reg'+'?class_id='+class_id;
+          });
+
+    $('.scroll-to-register').click(function() {
+      $('html, body').animate({
+            scrollTop: $("#section-pricing").offset().top
+        }, 1000);
+    });
+
+    $('.ask-on-register').click(function() {
+            $('.tab-register').click();
+    });
+
+    $('.native-register').click(function() {
+          });
+
+    var cloned_countdown = $('.countdown').first().clone();
+    cloned_countdown.addClass('countdown-day');
+    $('.countdown').first().find('.number').text('00');
+    $('.countdown').first().find('.text').text('Hari');
+
+
+    var cloned_countdown = $('.countdown').first().clone();
+    cloned_countdown.addClass('countdown-hour');
+    cloned_countdown.find('.number').text('00');
+    cloned_countdown.find('.text').text('Jam');
+    $('.box-timer').append(cloned_countdown);
+
+    var cloned_countdown = $('.countdown').first().clone();
+    cloned_countdown.addClass('countdown-minute');
+    cloned_countdown.find('.number').text('00');
+    cloned_countdown.find('.text').text('Menit');
+    $('.box-timer').append(cloned_countdown);
+
+    var cloned_countdown = $('.countdown').first().clone();
+    cloned_countdown.addClass('countdown-second');
+    cloned_countdown.find('.number').text('00');
+    cloned_countdown.find('.text').text('Detik');
+    $('.box-timer').append(cloned_countdown);
+
+    // var countDownDate = new Date("Mar 10, 2022 23:59:00");
+    // var countDownDate = new Date().getTime();
+
+    var x = setInterval(function() {
+      var nowDate = new Date();
+      var countDownDate = new Date(nowDate.getFullYear(),nowDate.getMonth(),nowDate.getDate(),23,59,59);
+
+      var now = new Date().getTime();
+
+      var distance = countDownDate.getTime() - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      $('.countdown').find('.number').text(days < 10 ? '0'+days:days);
+      $('.countdown-hour').find('.number').text(hours < 10 ? '0'+hours:hours);
+      $('.countdown-minute').find('.number').text(minutes < 10 ? '0'+minutes:minutes);
+      $('.countdown-second').find('.number').text(seconds < 10 ? '0'+seconds:seconds);
+
+      // if (distance < 0) {
+      // }
+    }, 1000);
+
+    let tempImageYoutube = document.getElementById('youtube-frame-extend');
+    let frameYoutube = document.getElementById('youtube-extend');
+
+    tempImageYoutube.addEventListener('click', function() {
+      if(frameYoutube) {
+        tempImageYoutube.style.display = 'none';
+        frameYoutube.style.display = 'block';
+        callPlayer('yt-embed-frame','playVideo');
+      } else {
+        // alert('Mohon maaf, Youtube belum terload.');
+      }
+    });
+
+    });
+
+    
+    </script>
+</section>
+
+
+<a style="z-index: 9;position: fixed;bottom: 0;right: 0;margin-right: 20px;margin-bottom: 20px;color: #fff;background-color: #0EBE43;border-radius: 9999px;padding: 10px 14px;" href="https://api.whatsapp.com/send?phone=628889966699&text=Hallo Eduwork, saya perlu bantuan." target="_blank">
+    <i class="fa fa-whatsapp" style="font-size: 35px;" aria-hidden="true"></i>
+</a>
+
+<script>
+
+    function openRegister() {
+        $(".reg-modal").show();
+        setTimeout(function () { $(".tab-register").click() }, 100);
+    }
+
+    function openLogin() { $(".reg-modal").show(); }
+
+    if ('' == 'register') {
+        $(document).ready(function () {
+            openRegister();
+        });
+    }
+    else if ('' == 'login') {
+        $(document).ready(function () {
+            openLogin();
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.tab-register').click();
+        $(".link_register_mentor").click(function(){
+            window.location.href = "https://eduwork.id/register/mentor";
+            // window.open("https://eduwork.id/register/mentor");
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('ul[style*="min-width: 300px"]').css('min-width', '0')
+        $('ul[style*="width: 300px"]').css('min-width', '0')
+
+        let queryDict = {}
+        location.search.substr(1).split('&').forEach(function(item) {queryDict[item.split('=')[0]] = item.split('=')[1]})
+
+        if(queryDict?.appreciation !== '' && queryDict?.appreciation?.length > 0){
+            $('.reg-modal').show()
+        }
+    })
+</script>
+
+
+
+</div>
+
+</body>
+
+</html>
