@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../new-project-laravel"
+		},
+		{
+			"path": "../../Responsive"
+		},
+		{
+			"path": "studi_kasus"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tugas_html"
+	}
+}
